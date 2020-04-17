@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NzAwNTgxODM1NzA4ODI1NzQx.XplB9A.-AfrsaaA-tc7i9--_vZbXlT_bQY';
+const {token} = require('./config.json');
 
 const PREFIX = '!';
 //Channels 
